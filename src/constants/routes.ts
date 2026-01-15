@@ -4,6 +4,7 @@ export const ROUTES = {
   ABOUT: "/about",
   API: "/api/data",
   RENDER_PROPS: "/render-props",
+  COMPOUND_COMPONENT: "/compound-component",
 };
 
 export const ROTES_LABEL = {
@@ -12,6 +13,7 @@ export const ROTES_LABEL = {
   [ROUTES.ABOUT]: "About (SSG)",
   [ROUTES.API]: "Test API",
   [ROUTES.RENDER_PROPS]: "Render Props",
+  [ROUTES.COMPOUND_COMPONENT]: "Compound Component",
 };
 
 export const NAV_ITEMS = [
@@ -34,5 +36,9 @@ export const NAV_ITEMS = [
   {
     path: ROUTES.RENDER_PROPS,
     label: ROTES_LABEL[ROUTES.RENDER_PROPS],
+  },
+  {
+    path: ROUTES.COMPOUND_COMPONENT,
+    label: ROTES_LABEL[ROUTES.COMPOUND_COMPONENT],
   },
 ];

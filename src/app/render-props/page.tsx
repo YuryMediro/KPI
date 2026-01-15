@@ -6,7 +6,6 @@ export const metadata: Metadata = {
 };
 
 export default async function RenderPropsPage() {
-
   return (
     <div className="p-4 w-full mx-auto">
       <h1 className="text-3xl font-bold mb-8 text-center">
